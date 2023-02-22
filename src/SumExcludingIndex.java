@@ -5,11 +5,11 @@ public class SumExcludingIndex {
         int[] test = sum(input);
 
         for (int num: test){
-            System.out.println(num + " ");
+            System.out.print(num + " ");
         }
 
     }
-    //Here's another sample problem from TestGorilla:
+
     //
     //Problem: Write a Java program that takes an array of integers and returns a
     // new array where each element is the sum of all the elements in the input array
