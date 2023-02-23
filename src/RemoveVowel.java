@@ -13,13 +13,15 @@ public class RemoveVowel {
 
     public static String removeVowel(String s){ //O(n) runtime
         String result = "";
+        StringBuilder resultsb = new StringBuilder();
         for(int i = 0; i <= s.length()-1;i++){ //Iterates thru all the indexes in array String
             if(!isVowel(s.charAt(i))){ //Uses helper method to determine if character at index is a vowel
-                result += s.charAt(i); //Adds character to new string result
+                //result += s.charAt(i); //Adds character to new string result
+                resultsb.append(s.charAt(i));
             }
 
         }
-        return result;
+        return resultsb.toString();
     }
 
     public static boolean isVowel(char c){
