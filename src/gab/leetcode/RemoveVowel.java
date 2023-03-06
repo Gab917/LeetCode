@@ -1,3 +1,5 @@
+package gab.leetcode;
+
 public class RemoveVowel {
     /*
        Problem: Write a Java program that takes a string as input and returns a new string where all the vowels in the original string are removed.

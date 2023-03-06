@@ -1,9 +1,12 @@
+package gab.leetcode;
 import java.util.HashMap;
 import java.util.Scanner;
 
 
+
 public class ValidAnagram {
 
+    /*
     public static void main(String[] args){
         Scanner scanner = new Scanner(System.in);
 
@@ -15,6 +18,8 @@ public class ValidAnagram {
         System.out.println(String.valueOf(validAnagram.isAnagram(s,t)));
 
     }
+
+     */
 
     //Given two strings s and t, return true if t is an anagram of s, and false otherwise.
     //

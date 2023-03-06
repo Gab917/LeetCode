@@ -1,3 +1,5 @@
+package gab.leetcode;
+
 public class SumExcludingIndex {
 
     public static void main(String[] args){

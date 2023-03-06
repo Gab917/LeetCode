@@ -1,3 +1,5 @@
+package gab.leetcode;
+
 public class ArrayAverage {
 
 
